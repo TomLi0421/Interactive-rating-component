@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  /* primary */
+  --orange: hsl(25, 97%, 53%);
+  /* neutral */
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --container-color: #1b263b;
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: var(--container-color);
+  margin: 0 1em;
+  padding: 1.8em;
+  border-radius: 1em;
+}
+
+.star-icon {
+  background-color: var(--dark-blue);
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.8em;
+  border-radius: 1.6em;
+}
+
+h1 {
+  color: var(--white);
+  margin: 1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  color: var(--medium-grey);
+  margin: 1em 0;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.rating button {
+  width: 50px;
+  height: 50px;
+  color: var(--medium-grey);
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  border: none;
+}
+
+.rating button:hover {
+  color: var(--white);
+  background-color: var(--orange);
+  cursor: pointer;
+}
+
+.rating button.clicked {
+  color: var(--white);
+  background-color: var(--medium-grey);
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--orange);
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 1em 3em;
+  margin: 1em 0;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 335px;
+  }
+}
