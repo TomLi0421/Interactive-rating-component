@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/TomLi0421/Interactive-rating-component](https://github.com/TomLi0421/Interactive-rating-component)
+- Live Site URL: [https://tomli0421.github.io/Interactive-rating-component/](https://tomli0421.github.io/Interactive-rating-component/)
 
 ## My process
 
@@ -46,5 +46,5 @@ Users should be able to:
 ## Author
 
 - Website - [https://tomli0421.github.io/Personal-site/](https://tomli0421.github.io/Personal-site/)
-- GitHub - [@TomLi0421](https://github.com/TomLi0421)
+- GitHub - [TomLi0421](https://github.com/TomLi0421)
 - Frontend Mentor - [@TomLi0421](https://www.frontendmentor.io/profile/TomLi0421)
