@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/TomLi0421/Interactive-rating-component](https://github.com/TomLi0421/Interactive-rating-component)
-- Live Site URL: [https://tomli0421.github.io/Interactive-rating-component/](https://tomli0421.github.io/Interactive-rating-component/)
+- Solution URL: [https://github.com/TomLi0421/interactive-rating-component](https://github.com/TomLi0421/interactive-rating-component)
+- Live Site URL: [https://tomli0421.github.io/interactive-rating-component/](https://tomli0421.github.io/interactive-rating-component/)
 
 ## My process
 
